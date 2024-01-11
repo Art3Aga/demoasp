@@ -352,3 +352,6 @@ C:\Users\aarteaga\Documents\Visual Studio 2022\TodoList\obj\Debug\net6.0\refint\
 C:\Users\aarteaga\Documents\Visual Studio 2022\TodoList\obj\Debug\net6.0\TodoList.pdb
 C:\Users\aarteaga\Documents\Visual Studio 2022\TodoList\obj\Debug\net6.0\TodoList.genruntimeconfig.cache
 C:\Users\aarteaga\Documents\Visual Studio 2022\TodoList\obj\Debug\net6.0\ref\TodoList.dll
+C:\Users\dealvarado\Source\Repos\demoasp\obj\Debug\net6.0\TodoList.dll
+C:\Users\dealvarado\Source\Repos\demoasp\obj\Debug\net6.0\refint\TodoList.dll
+C:\Users\dealvarado\Source\Repos\demoasp\obj\Debug\net6.0\TodoList.pdb
