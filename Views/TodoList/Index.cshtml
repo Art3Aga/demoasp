@@ -1,0 +1,51 @@
+﻿@* @model (TodoList.Models.TaskModel Task, List<TodoList.Models.TaskModel> TaskList)
+<div>
+	<h1>Lista de Tareas</h1>
+	<form asp-controller="TodoList" asp-action="AddTask"  method="post" class="input-group mb-5 mt-5">
+	  <input name="Id" asp-for="Task.Id" type="number" class="form-control" placeholder="ID">
+	  <input name="Name" asp-for="Task.Name" type="text" class="form-control" placeholder="Nueva Tarea">
+	  <button type="submit" class="btn btn-success">Agregar +</button>
+	</form>
+	<div class="list-group">
+		@foreach (var task in Model.TaskList)
+		{
+			<button type="button" class="list-group-item list-group-item-action">@task.Id - @task.Name</button>
+		}
+	</div>
+</div> *@
+
+
+<div class="mt-5">
+    <a class="boton-estilo" asp-controller="Home" asp-action="Index">Home</a>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>twitter</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

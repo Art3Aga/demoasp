@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* CSS en tu archivo de estilos o en línea en la vista */
+.boton-estilo {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #007bff; /* Borde del botón */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efecto de transición al pasar el ratón */
+}
+
+    .boton-estilo:hover {
+        background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+        color: #ffffff; /* Cambio de color de texto al pasar el ratón */
+    }
