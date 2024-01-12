@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aarteaga\\Documents\\Visual Studio 2022\\TodoList\\TodoList.csproj": {}
+    "C:\\Users\\dealvarado\\source\\repos\\demoasp\\TodoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aarteaga\\Documents\\Visual Studio 2022\\TodoList\\TodoList.csproj": {
+    "C:\\Users\\dealvarado\\source\\repos\\demoasp\\TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aarteaga\\Documents\\Visual Studio 2022\\TodoList\\TodoList.csproj",
+        "projectUniqueName": "C:\\Users\\dealvarado\\source\\repos\\demoasp\\TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "C:\\Users\\aarteaga\\Documents\\Visual Studio 2022\\TodoList\\TodoList.csproj",
-        "packagesPath": "C:\\Users\\aarteaga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aarteaga\\Documents\\Visual Studio 2022\\TodoList\\obj\\",
+        "projectPath": "C:\\Users\\dealvarado\\source\\repos\\demoasp\\TodoList.csproj",
+        "packagesPath": "C:\\Users\\dealvarado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dealvarado\\source\\repos\\demoasp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aarteaga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dealvarado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
